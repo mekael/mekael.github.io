@@ -23,15 +23,19 @@ color = "" #color from the theme settings
 
 Upon first allowing the autorun we are generaly,depending on how old of a system you are using or if you've previously installed , we are told that .net is out of date and we will need to install the runtime in order to be able to use our application. 
 
-![FrameworkMissing](/posts/images/FrameworkMissing.png)
+![FrameworkMissing](/posts/byny-what-are-we-working-with/FrameworkMissing.png)
 
 This is mildly funny due to the fact that .net a minimum of .net framework 3.0 has been included / installed on windows since the vista era (circa 2007) and this application was compiled in mid 2005. 
 
 <br/><br/><br/>
 We are now greeted with the installer for .net framework 1.1, which matches with the filestamp of installer (2005-07-28) as .net 2.0 wasn't released until October of 2005.
 
-![Framework1Screenshot](/posts/images/Framework1Screenshot.png)
+![Framework1Screenshot](/posts/byny-what-are-we-working-with/Framework1Screenshot.png)
 
 
 
-//TODO: 
+Once we get that all done, we can finally get around to actually installing the application. This is nothing special to be honest, but even if the setup file is copied to an ssd, it's still slow as all hell.  Once that's done and we open our app, we're greeted with a glorious cover of issue number 1 page. 
+
+
+![InitialStartup](/posts/byny-what-are-we-working-with/InitialStartup.jpg)
+

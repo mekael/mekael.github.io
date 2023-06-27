@@ -37,3 +37,12 @@ Yes, my blog, my rules. plus i love doing bits.
 - want to build out a larger system, cause why not.
 - the new yorker archive online is slow as h*ck
 - it's either this or do nothing after work. 
+
+
+### What are the overall goals ?
+
+- Create a drop in replacement for the windows application 
+- Create tools which allow for extraction of all assets from setup file
+- Create tools which allow for extraction of data from djvu files for easier reading 
+- Create a locally hosted simplified browser based app 
+- Create larger version of application which is hosted in containers and provides a myriad of features.

@@ -57,7 +57,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Catchy Title Here"
     subtitle = "Catchy Title Here"
     owner = ""
     keywords = ""
@@ -71,5 +71,5 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Catchy Title Here"
       logoHomeLink = "/"

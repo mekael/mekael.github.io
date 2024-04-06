@@ -19,7 +19,7 @@ Already I'm regretting my decision to document this project.
 
 Here it is, in all it's beautiful 800x600 glory. 
 
-![v1.4LoadingScreen](/static/posts/hinterwars/hinter-wars-java-client/v1.4LoadingScreen.png)
+![v1.4LoadingScreen](/posts/hinterwars/hinter-wars-java-client/v1.4LoadingScreen.png)
 
 
 Version : 1.4
@@ -51,7 +51,7 @@ While the min specs above state that 190MB's of free disk space, the jar that wa
 
 You might be asking, what causes this? Well dear reader, it is due to the fact that the resources folder is included twice in the jar, pointing us to a poorly configured build/packaging process.
 
-![v](/static/posts/hinterwars/hinter-wars-java-client/v1.4DupeResFolder.png)
+![v](/posts/hinterwars/hinter-wars-java-client/v1.4DupeResFolder.png)
 
 
 
@@ -69,7 +69,7 @@ Main-Class: MastersOfDestiny
 
 And when we start to do our decompile, we find... 
 
-![v](/static/posts/hinterwars/hinter-wars-java-client/v1.4Obfuscated.png)
+![v](/posts/hinterwars/hinter-wars-java-client/v1.4Obfuscated.png)
 
  
 G*d damn it. 

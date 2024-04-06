@@ -178,7 +178,7 @@ public class MonsterDetailsManager {
 After a lot of cleanup and fixing some issues where our initial decompile  had unreachable code due to infinite loops we get ... 
 
 
-[v1.4LoadingScreen](/static/posts/hinterwars/hinter-wars-java-client-ii/v2.0Recompile.mkv)
+[V2.0 Recompile Video](/posts/hinterwars/hinter-wars-java-client-ii/v2.0Recompile.mkv)
 
 
 

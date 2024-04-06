@@ -15,9 +15,10 @@ color = "" #color from the theme settings
 
 Now that i've got a tonne of cleanup finalized, let's start to do so research about the game server and how we can reimplement it.  
 
-From our initial code and name cleanup we are able to identify the host and port that were originally used and that we can provide a host/port combination from the command line (that is done in MastersOfDestiny which we have ommited due to the fact that it just passes a string from our initial args (args[0]) to this constructor).
+From our initial code and name cleanup we are able to identify the host and port that were originally used and that we can provide a host/port combination from the command line (that is done in MastersOfDestiny which we have ommited due to the fact that it just passes a string from our initial args ( ) to this constructor).
 
-```java
+
+{{< highlight java  >}}
     public GameStates(MastersOfDestiny mastersOfDestiny, String userSuppliedHostPort) {
         this.ServerPortPrefix = "5";
         this.ServerHostName = "b1.main.hinterwars.com";
@@ -33,13 +34,12 @@ From our initial code and name cleanup we are able to identify the host and port
         }
         SoundManager.soundManager.playSoundEffect(SoundFilePaths.MouseClickSuccessfulClipFilePath);
         pS = mastersOfDestiny;
-// ...
     }
-```
+{{< / highlight >}}
 
 Taking a look at the code above we see that the port number is found by splitting the host:port combo from the command line if available. If you're thinking, is this a direct socket connection rather than http calls, you would be correct.  Take note of the fact that the hardcoded address of b1.main.hinterwars.com:5 seems strange due to the fact that port 5 is generally reserved 
 
-![Wikipedia says it's so](/static/posts/hinterwars/hinter-wars-host-port-fun/WikipediaPortFive.png)
+![Wikipedia says it's so](/posts/hinterwars/hinter-wars-host-port-fun/WikipediaPortFive.png)
 
 
 The system is down, the system is down.
